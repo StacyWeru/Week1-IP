@@ -1,66 +1,72 @@
 html{
-    background-image: url(../image/swan.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-
-}
+    background-image: url(../image/pink.jpg);
+       background-repeat: no-repeat;
+          background-position: center;
+            background-size: cover;
+ }
 body{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 20px;
-    text-align: left;
-  
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 20px;
+            text-align: left;
 }
 h1{
     color: rgba(238, 12, 99, 0.836);
-    text-align: left;
-    font-style:oblique;
-    font-size: 30px;
+         text-align: left;
+            font-style:oblique;
+                font-size: 30px;
 }
 h2{
     color: rgb(0, 132, 255);
-    text-align: center;
-    font-style: italic;
-    font-size: 70px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+         text-align: center;
+             font-style: italic;
+                font-size: 70px;
+                     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 h3{
     color:yellow;
 }
 p{
     margin-left:initial;
-    text-align: left;
-    font-weight: bold;
-    color: rgba(231, 84, 109, 0.897);
+        text-align: left;
+           font-weight: bold;
+                color: blueviolet;
 }
 .column1{
-    float: left;
-    width: 500 px;
+      float: left;
+          width: 500 px;
     }
     .column2{
         width: 550px;
-        float: right;
+            float: right;
     }
     .column3{
         float: left;
-        width: 300px;
-        color:palevioletred;
-        font-weight: bolder;
+              width: 300px;
+                 color:palevioletred;
+                      font-weight: bolder;
     }
     .column4{
         float: right;
-        width: 300 px;
-        color:palevioletred;
-        font-weight: bold;
+            width: 300 px;
+                 color:palevioletred;
+                     font-weight: bold;
     }
     .last{
-        float: left;
+        float: bottom left;
+        align-content: initial;
     }
     span{
-        color: rgb(224, 235, 72);
-        font-style: italic;
-        font: larger;
-        font-family: cursive;
+        color: royalblue;
+             font-style: italic;
+                 font: larger;
+                      font-family: cursive;
+    }
+    .box{
+        float: bottom left;
+        border: 2px solid red;
+        padding: 2px;
+        margin: 5px;
+        background-color: yellow;
     }
     @media screen and (max-width: 700 px) {
         .column {
