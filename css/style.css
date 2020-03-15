@@ -1,12 +1,15 @@
+html{
+    background-image: url(../image/pink.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
 body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 20px;
     text-align: left;
-    background-image: url(../image/pink.jpg);
-    background-position: center;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
+  
 }
 h1{
     color: rgba(238, 12, 99, 0.836);
@@ -21,3 +24,23 @@ h2{
     font-size: 70px;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
+.column1{
+    float: left;
+    width: 500 px;
+    }
+    .column2{
+        width: 600px;
+        float: right;
+    }
+    .column3{
+        float: left;
+        width: 300px;
+    }
+    .column4{
+        float: right;
+        width: 300px;
+    }
+    p{
+        margin-left:initial;
+        text-align: left;
+    }
