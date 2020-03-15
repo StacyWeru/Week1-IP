@@ -1,9 +1,9 @@
 # Week1-IP
 #My uncomplete Week One IP Project
-#### This is a summury of what has been done throught the previous week,Sunday 15th March 2020
+#### This is a summary of what has been done throughout the previous week,Sunday 15th March 2020
 #### By Stacy Wanjiku Weru
 ## Description
-It has most of the sure projects that have been done.I must admit the final copy of the independent project has not come out well because of some blockers but I am sure I can fixit after deadline of submission
+It has most of the sure projects that have been done.I must admit the final copy of the independent project has not come out well because of some blockers but I am sure I can fix it after deadline of submission.
 ## Setup
 * it is very easy to understand
 * Simple to navigate
