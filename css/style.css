@@ -1,5 +1,5 @@
 html{
-    background-image: url(../image/pink.jpg);
+    background-image: url(../image/swan.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -14,7 +14,7 @@ body{
 h1{
     color: rgba(238, 12, 99, 0.836);
     text-align: left;
-    font-style: normal;
+    font-style:oblique;
     font-size: 30px;
 }
 h2{
@@ -24,23 +24,45 @@ h2{
     font-size: 70px;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
+h3{
+    color:yellow;
+}
+p{
+    margin-left:initial;
+    text-align: left;
+    font-weight: bold;
+    color: rgba(231, 84, 109, 0.897);
+}
 .column1{
     float: left;
     width: 500 px;
     }
     .column2{
-        width: 600px;
+        width: 550px;
         float: right;
     }
     .column3{
         float: left;
         width: 300px;
+        color:palevioletred;
+        font-weight: bolder;
     }
     .column4{
         float: right;
-        width: 300px;
+        width: 300 px;
+        color:palevioletred;
+        font-weight: bold;
     }
-    p{
-        margin-left:initial;
-        text-align: left;
+    .last{
+        float: left;
     }
+    span{
+        color: rgb(224, 235, 72);
+        font-style: italic;
+        font: larger;
+        font-family: cursive;
+    }
+    @media screen and (max-width: 700 px) {
+        .column {
+          width: 100%;
+        }
